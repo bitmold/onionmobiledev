@@ -33,6 +33,6 @@
 
 ## Help and Community
 
+* [Community Case Studies](help-and-community/community-case-studies.md)
+* [Developer Story: Arti Integration Journey](help-and-community/developer-story-arti-integration-journey.md)
 * [Where to get help](help-and-community/where-to-get-help.md)
-* [Developer Story: Arti Integration Journey](help-and-community/developer-story-arti-integration-journey/README.md)
-  * [Community Case Studies](help-and-community/developer-story-arti-integration-journey/community-case-studies.md)

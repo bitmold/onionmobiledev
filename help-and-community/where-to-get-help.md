@@ -1,5 +1,6 @@
 ---
 description: Where to go to ask more questions about Tor and mobile development
+icon: message-question
 ---
 
 # Where to get help

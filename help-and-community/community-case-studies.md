@@ -1,5 +1,6 @@
 ---
 description: Learn about some great mobile apps that build on Tor
+icon: people-pants
 ---
 
 # Community Case Studies
