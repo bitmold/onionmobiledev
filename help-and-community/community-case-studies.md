@@ -1,9 +1,11 @@
 ---
-description: Learn about some great mobile apps that build on Tor
 icon: people-pants
+description: Learn about some great open-source mobile apps that integrate Tor on mobile
 ---
 
 # Community Case Studies
+
+Below are some short interviews with the teams behind four different apps built outside of the Tor community, that have integrated Tor support to provide extra security and privacy to their user communities.
 
 ### Rethink at [https://rethinkdns.com](https://rethinkdns.com)
 
@@ -27,6 +29,8 @@ Our development team (of 2) bears the entire cost of the public DNS resolvers th
 
 ### Mumla - [https://mumla-app.gitlab.io/](https://mumla-app.gitlab.io/)
 
+> Mumble is a low latency, high quality voice conference and chat system. Connect to one of the many public Mumble servers, or [run a server](https://wiki.mumble.info/wiki/Murmurguide) for your own community!
+
 **What inspired you to create this app?**
 
 I had a need for a Mumble client on Android at the time, and what I found had some annoying bugs, and was appa rently no longer maintained for several years. I therefore forked that software and named it Mumla (which is Swedish for "mumble").
@@ -44,6 +48,8 @@ The best support for Mumla would be funding that would allow me to prioritize do
 
 ### Monocles - [https://monocles.de/](https://monocles.de/)
 
+> monocles is a project founded to move to a more secure, ecofriendly, privacy respecting, fair and open source technical and digital life for everyone.&#x20;
+
 **What inspired you to create this app?**
 
 I decided to create monocles chat, monocles browser and the other free and open source monocles apps to help people to protect themselves and move to a more fair and ethically digital life. Also I try to help reducing the resource consumption since the monocles apps and servers need less resources than the common android apps. I don't think it is good when few big companies or countries have too much might or control over too many people because I think that diversity is important.
@@ -52,10 +58,10 @@ I decided to create monocles chat, monocles browser and the other free and open 
 I think it is especially in restricted countries essential to have Tor integrated in the apps to protect people from totalitarian systems, from suppression and to guarantee the freedom of expression of individuals. Additionally I think that Tor can be good to use in common and “free” environments too because there are still too many companies and institutions which try to get too much data from people which again could lead to something totalitarian too. Therefore I see Tor as an important project for the freedom and protection of individuals but also for societies.
 
 **How can people best support your work?**\
-Currently the most important help would be financial support to the monocles project since it is still privately funded by me, some few payed accounts and little donations but also code or pull requests for the apps would be really helpful. Additionally using the apps and increasing awareness would be support the my work.
+Currently the most important help would be financial support to the monocles project since it is still privately funded by me, some few payed accounts and little donations but also code or pull requests for the apps would be really helpful. Additionally using the apps and increasing awareness would be support the my work.\
 
-\
 
+***
 
 ### WebMon - [https://webmon.dev.akito.ooo/](https://webmon.dev.akito.ooo/)
 
