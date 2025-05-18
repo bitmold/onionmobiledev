@@ -14,7 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Install build tools via [Homebrew](https://brew.sh/):
 
-```
+```bash
 brew install automake autoconf libtool gettext
 ```
 
@@ -22,7 +22,7 @@ Tor is available through [CocoaPods](https://cocoapods.org/). To install it, sim
 
 If you use dynamic frameworks, use the root spec:
 
-```
+```ruby
 use_frameworks!
 pod 'Tor', '~> 408'
 ```
@@ -31,7 +31,7 @@ pod 'Tor', '~> 408'
 
 If you need to add it as a static library, you will need to add it from a modified podspec:
 
-```
+```podspec
 pod 'Tor', :podspec => 'https://raw.githubusercontent.com/iCepa/Tor.framework/pure_pod/TorStatic.podspec'
 ```
 
@@ -45,7 +45,7 @@ Starting an instance of Tor involves using three classes: `TORThread`, `TORConfi
 
 Here is an example of integrating Tor with `NSURLSession`:
 
-```
+```m
 TORConfiguration *configuration = [TORConfiguration new];
 configuration.ignoreMissingTorrc = YES;
 configuration.cookieAuthentication = YES;
@@ -86,14 +86,14 @@ if (error) {
 
 In your `Podfile` use the subspec `GeoIP` or `StaticGeoIP` instead of the root spec:
 
-```
+```ruby
 use_frameworks!
 pod 'Tor/GeoIP'
 ```
 
 or
 
-```
+```ruby
 pod 'Tor/GeoIP', :podspec => 'https://raw.githubusercontent.com/iCepa/Tor.framework/pure_pod/TorStatic.podspec'
 ```
 
@@ -101,7 +101,7 @@ The subspec will create a "GeoIP" bundle and install a run script phase which wi
 
 To use it with Tor, add this to your configuration:
 
-```
+```m
 TORConfiguration *configuration = [TORConfiguration new];
 configuration.geoipFile = NSBundle.geoIpBundle.geoipFile;
 configuration.geoip6File = NSBundle.geoIpBundle.geoip6File;

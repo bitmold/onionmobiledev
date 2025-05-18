@@ -17,7 +17,7 @@ More specifically this library provides:
 * Proxied Connection Support: HTTP and SOCKS proxy connection support for HTTP\
   and HTTPS traffic through specific configuration
 * OrbotHelper: a utility class to support application integration with Orbot\
-  (Tor for Android). Check if its installed, automatically start it, etc.
+  (Tor for Android). Check if it's installed, automatically start it, etc.
 * Optional, custom certificate store based on the open Debian root CA trust\
   store, which is built with Mozilla’s CA collection.
 

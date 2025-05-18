@@ -21,13 +21,13 @@ There is a [sample Android Studio project](https://gitlab.com/guardianproject/ar
 
 Once you have built and imported the Arti library into your project, all that you do to initialize it using default ports, all that you need to do is:
 
-```
+```java
 Arti.init(this);
 ```
 
 From there, you can easily proxy any HTTP connection over Arti's built-in SOCKs proxy port
 
-```
+```java
 Proxy proxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(proxyHost, proxyPort));
 
 HttpURLConnection connection = null;
@@ -38,10 +38,11 @@ connection.setRequestMethod("GET");
 
 You can also use the ProxyConfig class to enable WebView proxying, as well
 
-```
+```java
 ProxyConfig proxyConfig = new ProxyConfig.Builder()
            .addProxyRule("127.0.0.1:8118") //http proxy for tor
-          .addDirect().build();
+           .addDirect()
+           .build();
 
 ProxyController.getInstance().setProxyOverride(proxyConfig, new Executor() {
             @Override

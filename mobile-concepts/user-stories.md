@@ -15,7 +15,7 @@ layout:
 
 # Mobile Users in the OnionVerse
 
-User personas are a key component of [Tor's human-centered design process](https://community.torproject.org/user-research/). They help foster empathy by encouraging our developers to better understand the motivations, pain points and goals of our users. The f[irst generation of Tor personas](https://community.torproject.org/user-research/personas/) were created following a series of field studies in the Global South from 2018 to 2019, where we were fortunate to meet many different kinds of Tor users – including activists, journalists and other human rights defenders. You can view them all on the [Tor Persona User Research page](https://community.torproject.org/user-research/personas/).
+User personas are a key component of [Tor's human-centered design process](https://community.torproject.org/user-research/). They help foster empathy by encouraging our developers to better understand the motivations, pain points and goals of our users. The [first generation of Tor personas](https://community.torproject.org/user-research/personas/) were created following a series of field studies in the Global South from 2018 to 2019, where we were fortunate to meet many different kinds of Tor users – including activists, journalists and other human rights defenders. You can view them all on the [Tor Persona User Research page](https://community.torproject.org/user-research/personas/).
 
 Below are some additional lightweight, mobile centric user stories that can also help consider the types of users who may benefit from Tor support being built into your app.
 

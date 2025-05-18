@@ -8,7 +8,7 @@ Source repository: [https://github.com/guardianproject/tor-android/](https://git
 
 Easy to integrate as a Maven dependency
 
-```
+```groovy
 dependencies {
     implementation 'info.guardianproject:tor-android:0.4.8.7'
     implementation 'info.guardianproject:jtorctl:0.4.5.7'
@@ -17,7 +17,7 @@ dependencies {
 
 Bind to Tor as a Service
 
-```
+```java
 bindService(new Intent(this, TorService.class), new ServiceConnection() {
             @Override
             public void onServiceConnected(ComponentName name, IBinder service) {
